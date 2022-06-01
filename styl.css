@@ -1,0 +1,25 @@
+body {
+    color:rgb(238, 0, 255);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    
+}
+.navcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.Navitem{
+    box-sizing: border-box;
+    background-color: crimson;
+    color: darkgoldenrod;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-left: 20px;
+}
